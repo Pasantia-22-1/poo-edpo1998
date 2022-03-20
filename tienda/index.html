@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">  
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <main>
+            <div class="containerform">
+                <!-- Raton -->  
+                <form id="formRaton" class="col-lg-6 offset-lg-3">
+                    <div class="bg-light row justify-content-center border border-dark rounded">
+                        <div class="title"><h2>Ingresar Raton </h2></div>
+                        <div class="mb-3">
+                            <label for="marca">Marca</label>
+                            <input type="text" class="form-control"
+                                    placeholder="Marca" id="marca"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="entrada">Entrada</label>
+                            <input type="text" class="form-control"
+                                    placeholder="Entrada" id="entrada"/>
+                        </div> 
+                    </div> 
+                </form>  
+                <!-- Boton de test -->
+                <!--
+                <div class="col-md-12 text-center">
+                    <button class="btn btn-primary" onclick="addRaton()"> Ingresar Orden </button> 
+                </div>
+                -->
+
+                <!-- Teclado -->
+                <form id="formTeclado" class="col-lg-6 offset-lg-3">
+                    <div class="bg-light row justify-content-center border border-dark rounded">
+                        <div class="title"><h2>Ingresar Teclado </h2></div>
+                        <div class="mb-3">
+                            <label for="marca">Marca</label>
+                            <input type="text" class="form-control"
+                                    placeholder="Marca" id="marca"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="entrada">Entrada</label>
+                            <input type="text" class="form-control"
+                                    placeholder="Entrada" id="entrada"/>
+                        </div> 
+                        <div class="mb-3">
+                            <label for="tipo">Tipo</label>
+                            <input type="text" class="form-control"
+                                    placeholder="Tipo" id="tipo"/>
+                        </div> 
+                    </div> 
+                </form> 
+
+                <!-- Monitor -->
+                <form id="formMonitor" class="col-lg-6 offset-lg-3">
+                    <div class="bg-light row justify-content-center border border-dark rounded">
+                        <div class="title"><h2>Ingresar Monitor </h2></div>
+                        <div class="mb-3">
+                            <label for="marca">Marca</label>
+                            <input type="text" class="form-control"
+                                    placeholder="Marca" id="marca"/>
+                        </div>
+                        <div class="mb-3">
+                            <label for="entrada">Tamanio</label>
+                            <input type="text" class="form-control"
+                                    placeholder="Tamanio" id="tamanio"/>
+                        </div> 
+                    </div> 
+                </form> 
+
+                <!-- Computadora -->
+                <form id="formComputadora" class="col-lg-6 offset-lg-3">
+                    <div class="bg-light row justify-content-center border border-dark rounded">
+                        <div class="title"><h2>Ingresar Computadora </h2></div>
+                        <div class="mb-3">
+                            <label for="marca">Nombre</label>
+                            <input type="text" class="form-control"
+                                    placeholder="Nombre" id="nombre"/>
+                        </div>
+                    </div> 
+                </form> 
+
+                <div class="col-md-12 text-center">
+                    <button class="btn btn-primary" onclick="app()"> Ingresar Orden </button> 
+                </div>
+            </div>
+            
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Exportacion del Modulo -->  
+    <script type="module" src="js/index.js"  ></script>
+</body>
+</html>
